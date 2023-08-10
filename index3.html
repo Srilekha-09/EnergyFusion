@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Integrated Utility Management</title>
+<link rel="stylesheet" href="style23.css">
+</head>
+<body>
+  <header>
+    <h1>Integrated Utility Management Solution</h1>
+    <nav>
+      <ul>
+        <li><a href="#energy">Energy Consumption Optimization</a></li>
+        <li><a href="#appliances">Appliance Management and Automation</a></li>
+        <li><a href="#utility-control">Utility Control</a></li>
+        <li><a href="#demand">Demand Response and Grid Interaction</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="energy">
+    <h2>Energy Consumption Optimization</h2>
+    <p>Monitor and analyze your energy consumption patterns across various utilities in real-time.</p>
+    <div class="utility">
+      <h3>Electricity Meter</h3>
+      <p>Current Reading: <span id="electricity-reading">0</span> kWh</p>
+      <p>Current Bill: &#8377;<span id="electricity-bill">0</span></p>
+    </div>
+    <div class="utility">
+  <h3>Water Meter</h3>
+  <p>Current Reading: <span id="water-reading">0</span> cubic meters</p>
+  <p>Current Bill: &#8377;<span id="water-bill">0</span></p>
+</div>
+
+<div class="utility">
+  <h3>Temperature Meter</h3>
+  <p>Current Reading: <span id="temperature-reading">0</span> &#8451;</p>
+</div>
+
+<div class="utility">
+  <h3>Gas Meter</h3>
+  <p>Current Reading: <span id="gas-reading">0</span> cubic meters</p>
+  <p>Current Bill: &#8377;<span id="gas-bill">0</span></p>
+</div>
+
+  </section>
+
+  <section id="appliances">
+    <h2>Appliance Management and Automation</h2>
+    <p>Remotely control and schedule IoT-enabled appliances for energy efficiency and convenience.</p>
+    <div class="appliance">
+      <h3>Smart Washing Machine</h3>
+      <p>Status: <span id="washing-machine-status">Off</span></p>
+      <button id="washing-machine-toggle">Toggle</button>
+    </div>
+  </section>
+
+  <section id="utility-control">
+    <h2>Utility Control</h2>
+    <div class="utility-control">
+      <h3>Water Control</h3>
+      <p>Status: <span id="water-status">Off</span></p>
+      <button id="water-toggle">Toggle</button>
+    </div>
+    <div class="utility-control">
+      <h3>Gas Control</h3>
+      <p>Status: <span id="gas-status">Off</span></p>
+      <button id="gas-toggle">Toggle</button>
+    </div>
+    <div class="utility-control">
+      <h3>Temperature Control</h3>
+      <p>Status: <span id="temperature-status">Off</span></p>
+      <button id="temperature-toggle">Toggle</button>
+    </div>
+  </section>
+
+  <!-- Inside the "Demand Response and Grid Interaction" section -->
+<section id="demand">
+  <h2>Demand Response and Grid Interaction</h2>
+  <p>Contribute to a stable energy grid by adjusting appliance usage based on grid conditions. By participating in demand response programs, you help balance energy supply and demand, reducing the risk of blackouts and improving overall grid reliability.</p>
+  <div class="demand-response">
+    <h3>Adjust Appliance Usage</h3>
+    <p>Help stabilize the grid by temporarily reducing energy consumption during peak demand periods.</p>
+    <button id="adjust-appliance-usage">Adjust</button>
+  </div>
+</section>
+
+  <footer>
+    <p>&copy; 2023 Integrated Utility Management. All rights reserved.</p>
+  </footer>
+
+  <script src="script12.js"></script>
+</body>
+</html>
